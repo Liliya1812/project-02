@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--    fontawesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!--     swipper css link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>  
+<!--   cusom css file link -->
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <header class="header">
+    <a href="home.html" class="logo"><i class="fas fa-shopping-basket"></i>fresh</a>
+ <nav class="navbar">
+   <a href="#home">home</a>
+   <a href="#faetures">features</a>
+   <a href="#products">products</a>
+   <a href="#categories">categories</a>
+   <a href="#blogs">blogs</a>
+    </nav>
+   <div class="icons">
+     <div class="fas fa-bars" id="menu-btn"></div>
+     <div class="fas fa-search" id="search-btn"></div>
+       <div class="fas fa-shopping-cart" id="cart-btn"></div>
+       <div class="fas fa-user" id="login-btn"></div>
+     </div>
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here....">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+      <img src="https://media.istockphoto.com/photos/whole-and-slices-watermelon-with-green-leaves-isolated-on-white-picture-id1131704553" alt="">
+        <div class="content">
+          <h3>watertmelon</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+      <img src="https://media.istockphoto.com/photos/fresh-onion-bulb-isolated-on-white-with-clipping-path-picture-id517938136" alt="">
+        <div class="content">
+          <h3>onion</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+      <img src="https://images.pexels.com/photos/6163330/pexels-photo-6163330.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <div class="content">
+          <h3>chicken</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="total">total : $19.69/- </div>
+      <a href="" class="btn">checkout</a>
+    </div>
+     <form action="" class="login-form">
+    <h3>login now</h3>
+      <input type="email" class="box" placeholder="enter your email">
+     <input type="password" class="box" placeholder="enter your password">
+        <p>forgot password?<a href="#">click here </a></p>
+      <p>don't have and account?<a href="#">register now</p>
+      <input type="submit" value="login now" class="btn">
+     
+    </form>
+    </header>
+<!--     header section end -->
+<!--     home section start -->
+    <section class="home" id="home">
+    <div class="content">
+      <h3>fresh and <span>organic</span>product for your</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipicising elit. Aliquam libero nosturm veniam facere tempore nisi.</p>
+      <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+<!--     home section end -->
+<!--     feature section start -->
+    <section class="features" id="faetures">
+      <h1 class="heading"> our <span> features </span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="https://images.pexels.com/photos/4946628/pexels-photo-4946628.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  alt="">
+        <h3>fresh and organic</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipicising elit.</p>
+        <a href="" class="btn">read more</a>
+      </div>
+      
+        <div class="box">
+        <img src="https://images.pexels.com/photos/4391638/pexels-photo-4391638.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  alt="">
+        <h3>free delivery</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipicising elit.</p>
+        <a href="" class="btn">read more</a>
+      </div>
+      
+        <div class="box">
+        <img src="https://images.pexels.com/photos/7534796/pexels-photo-7534796.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  alt="">
+        <h3>easy payments</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipicising elit.</p>
+        <a href="" class="btn">read more</a>
+      </div>
+      
+      </div>
+    </section>
+<!--     feature section end -->
+<!--     product section start -->
+    <section class="products" id="products">
+      
+      <h1 class="heading">our <span>products</span></h1>
+      
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/orange-picture-id185284489" alt="">
+            <h3>fresh orange</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+           <div class="swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/set-of-whole-and-sliced-red-onions-picture-id1060861634" alt="">
+            <h3>fresh onion</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+         <div class="swiper-slide box">
+            <img src="https://images.pexels.com/photos/112781/pexels-photo-112781.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+            <h3>fresh meat</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+           <div class="swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/green-cabbage-isolated-on-white-picture-id673162168" alt="">
+            <h3>fresh cabbage</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+        </div>
+      </div>
+      
+       <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/heap-of-raw-potato-picture-id1005339436" alt="">
+            <h3>fresh potato</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i> 
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+           <div class="swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/falling-avocado-clipping-path-isolated-on-white-background-full-depth-picture-id1125584389" alt="">
+            <h3>fresh avocado</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+         <div class="swiper-slide swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/carrots-picture-id92026520" alt="">
+            <h3>fresh carrot</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+           <div class="swiper-slide box">
+            <img src="https://media.istockphoto.com/photos/lemon-picture-id106491732" alt="">
+            <h3>green lemon</h3>
+            <div class="price">$4.99 - 10.99/- </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+<!--     producrt section end -->
+<!--     categories section start -->
+    <section class="categories" id="categories">
+      <h1 class="heading">our <span>categories</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="https://media.istockphoto.com/photos/closeup-of-hands-woman-with-fresh-vegetables-in-the-box-top-view-picture-id1267099282" alt="">
+        <h3>vegitables</h3>
+        <p>upto 45% 0ff</p>
+        <a href="#" class="btn">shop now</a>
+        </div>
+      
+      <div class="box">
+        <img src="https://media.istockphoto.com/photos/fruits-and-veggies-in-wood-box-with-white-backdrop-picture-id160356158" alt="">
+        <h3>fresh fruits</h3>
+        <p>upto 45% 0ff</p>
+        <a href="#" class="btn">shop now</a>
+        </div>
+      
+      <div class="box">
+        <img src="https://media.istockphoto.com/photos/assortment-of-most-common-dairy-products-on-white-backdrop-picture-id155373465" alt="">
+        <h3>dairy products</h3>
+        <p>upto 45% 0ff</p>
+        <a href="#" class="btn">shop now</a>
+        </div>
+      
+      <div class="box">
+        <img src="https://media.istockphoto.com/photos/raw-chicken-fillets-close-up-isolated-on-white-picture-id511486326" alt="">
+        <h3>fresh meat</h3>
+        <p>upto 45% 0ff</p>
+        <a href="#" class="btn">shop now</a>
+        </div>
+      
+      </div>
+    </section>
+<!--   categories section end -->
+<!--      blog section start -->
+    <section class="blogs"id="blogs">
+      <h1 class="heading">our <span>blogs</h1>
+      <div class="box-container">
+        <div class="box">
+      <img src="https://images.pexels.com/photos/219794/pexels-photo-219794.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fas fa-user"></i>By User</a>
+                <a href="#"><i class="fas fa-calendar"></i>1st october 2022</a>   
+            </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.venima, expedita</p>
+                <a href="#" class="btn">read more</a>
+          </div>
+         </div>
+             <div class="box">
+      <img src="https://images.pexels.com/photos/1496266/pexels-photo-1496266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fas fa-user"></i>By User</a>
+                <a href="#"><i class="fas fa-calendar"></i>1st 0ctober 2022</a>   
+            </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.venima, expedita</p>
+                <a href="#" class="btn">read more</a>
+          </div>
+         </div>
+             <div class="box">
+      <img src="https://images.pexels.com/photos/6707512/pexels-photo-6707512.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fas fa-user"></i>By User</a>
+                <a href="#"><i class="fas fa-calendar"></i>1st october 2022</a>   
+            </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.venima, expedita</p>
+                <a href="#" class="btn">read more</a>
+          </div>
+         </div>
+      </div>
+    </section>
+<!--     blog section end -->
+<!--      footer section start  -->
+      <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>groco<i classs="fas fa-shopping-basket"></i></h3>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.venima, expedita</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"><i class="fas fa-phone"></i>+998998216012</a>
+          <a href="#" class="links"><i class="fas fa-phone"></i>+998998216090</a>
+          <a href="#" class="links"><i class="fas fa-envelope"></i>liliyaxaliulina@gmail.com</a>
+          
+          <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Uzbekistan, Tashkent</a>
+        </div>
+        
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+          
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+          
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+          
+        </div>
+        
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+
+        </div> 
+        
+        </div>
+        <div class="credit">
+          created by<span>liliya_xaliulina </span>all right reserved
+        </div>    
+        
+        
+      </section>
+<!--       footer section end -->
+<!--   swiper js link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </body>
+</html>
